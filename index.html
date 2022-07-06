@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Spider Galary</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -20,7 +20,6 @@
                 <li><a href="spider-movies.html">Movies</a></li>
             </ul>
         </nav>
-
     </header>
     <main>
         <div class="content">
@@ -28,7 +27,6 @@
                 <h1>Chose your favorite spider man</h1>
                 <p>Click on the image</p>
             </div>
-
             <div class="slides">
                 <input type="radio" name="slide" id="slide1" checked>
                 <input type="radio" name="slide" id="slide2">
@@ -39,21 +37,26 @@
                     </a>
                 </div>
                 <div class="slide s2">
-                    <a href="spider-games.html"><img src="./assets/img/spider-games/spider-game-14.png" alt="Spider Man Games"></a>
+                    <a href="spider-games.html">
+                        <img src="./assets/img/spider-games/spider-game-14.png" alt="Spider Man Games">
+                    </a>
                 </div>
                 <div class="slide s3">
-                    <a href="spider-movies.html"><img src="./assets/img/spider-movies/spider-0.png" alt="Spider Man 2"></a>
+                    <a href="spider-movies.html">
+                        <img src="./assets/img/spider-movies/spider-0.png" alt="Spider Man 2">
+                    </a>
+                    <div class="navigation">
+                        <label class="bar" for="slide1"></label>
+                        <label class="bar" for="slide2"></label>
+                        <label class="bar" for="slide3"></label>
+                    </div>
                 </div>
+
             </div>
-        </div>
-        <div class="navigation">
-            <label class="bar" for="slide1"></label>
-            <label class="bar" for="slide2"></label>
-            <label class="bar" for="slide3"></label>
+
         </div>
 
     </main>
-
 </body>
 
 </html>
